@@ -1,0 +1,46 @@
+/server
+  /src
+    /config
+      env.ts
+      db.ts
+    /middleware
+      auth.middleware.ts
+      role.middleware.ts
+      error.middleware.ts
+    /modules
+      /auth
+        auth.controller.ts
+        auth.routes.ts
+        auth.service.ts
+      /prospect
+        prospect.controller.ts
+        prospect.routes.ts
+        prospect.service.ts
+      /analysis
+        analysis.service.ts
+      /scoring
+        scoring.service.ts
+      /recommendation
+        recommendation.controller.ts
+        recommendation.routes.ts
+      /feedback
+        feedback.controller.ts
+        feedback.routes.ts
+        feedback.service.ts
+      /admin
+        admin.controller.ts
+        admin.routes.ts
+    /utils
+      openai.ts
+      csv.ts
+      website.ts
+    app.ts
+    server.ts
+  package.json
+  tsconfig.json
+  Dockerfile
+
+/prisma
+  schema.prisma
+
+.env.example
